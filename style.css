@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #1d61b9;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4da3ff;
+  height: 120px;
+  border: 5px solid white;
+}
+h1 {
+  color: #ffffff;
+  font-family: 'Comic Sans MS', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+.subtitulo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60px;
+}
+.subtitulo p{
+  color: #ffffff;
+  font-family: 'Buxton Sketch';
+  font-size: 30px;
+}
+.contenido {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #4da3ff;
+  height: 220px;
+  border: 5px solid white;
+}
+.contenido img{
+  height:200px;
+}
+.contenido p{
+  color: #ffffff;
+  font-family: 'Courier New';
+  font-size: 20px;
+}
